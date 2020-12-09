@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+  font-size: 25;
+}
+
+  center {
+  text-align: center;
+  }
+  
+  img {
+  display: block;
+  margin-left: 180px;
+  margin-right: auto;
+  width: 35%;
+}
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+li {
+  display: inline;
+  float: right;
+  border-right: 100px solid rgb(0, 0, 0);
+}
+
+.mydiv {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.logo{
+  display: block;
+  position: absolute;
+  top: 5%;
+  width: 20%;
+  transform: translate(-50%, -50%);
+}
+
+.about{
+  display: block;
+  background-color:rgb(0, 0, 0);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  color:white;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}	
+
+.graphics {
+  display: block;
+  position: absolute;
+  margin-left: 300px;
+  margin-right: 0;
+  font-weight: bold;
+  color:red;
+}
+.uiux {
+  display: block;
+  position: absolute;
+  margin-left: 900px;
+  color:rgb(175, 175, 175);
+  
+}
+.column {
+	display: block;
+  float: left;
+  width: 25.00%;
+  top: 60%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  top: 60%;
+  display: table;
+}
+
+a:link {
+  color: rgb(126, 126, 126);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(248, 248, 248);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+/* For mobile phone:*/
+[class*="col-"]{
+  width:100%;
+}
